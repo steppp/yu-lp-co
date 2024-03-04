@@ -1,0 +1,38 @@
+.counterContainer {
+    width: 100%;
+    display: flex;
+}
+
+.counterWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 10em;
+    height: auto;
+
+    border: 1px solid black;
+
+    font-weight: 700;
+}
+
+.playerLabelWrapper {
+    background-color: coral;
+
+    width: 100%;
+}
+
+.playerLabelText {
+    color: black;
+}
+
+.playerLpWrapper {
+    width: 100%;
+    text-align: right;
+}
+
+.playerLpText {
+    font-size: 2em;
+    font-weight: 900;
+    padding: 0 8px;
+}

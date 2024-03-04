@@ -1,0 +1,19 @@
+.countersArea {
+    width: 100%;
+}
+
+.countersAreaWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+.countersAreaWrapper > * {
+    flex: 1;
+}
+
+.countersAreaWrapper > :last-child {
+    direction: rtl;
+}
