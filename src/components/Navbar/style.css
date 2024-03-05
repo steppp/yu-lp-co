@@ -1,0 +1,31 @@
+.navbarWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 2em;
+}
+
+.navbarContainer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 2em;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+
+.navbarLogo {
+    font-weight: 900;
+    width: 100%;
+    text-align: left;
+}
+
+.navbarLogo .logo {
+    margin: 0 16px;
+}
+
+.rightWidget {
+    font-size: 1.2em;
+}
