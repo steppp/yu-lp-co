@@ -1,0 +1,11 @@
+.timerWrapper {
+    margin-bottom: 2em;
+}
+
+.timerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
